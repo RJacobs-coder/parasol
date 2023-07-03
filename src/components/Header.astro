@@ -1,0 +1,38 @@
+---
+import logo from "../../public/art_assets/umbrellapicture.png";
+---
+
+<header class="header">
+    <div class="container">
+        <ul>
+            <li>
+                <div class="logo">
+                    <a href="/">
+                        <img src={logo} alt="Company Logo" />
+                    </a>
+                </div>
+            </li>
+            <li><h1>Welcome to Parasol.com</h1></li>
+        </ul>
+    </div>
+</header>
+
+<style>
+    .header {
+        padding-bottom: 50px;
+        width:100%;
+    }
+    ul {
+        display: inline-flex;
+    }
+    h1 {
+        justify-self: end;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    img {
+        justify-self:left;
+        width: 50px;
+        height: 50px;
+    }
+</style>

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "QSand";
+  src: local("QSand"), url(../../public/art_assets/fonts/Quicksand-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"), url(../../public/art_assets/fonts/Rubik-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: "MWeather";
+  src: local("MWeather"), url(../../public/art_assets/fonts/Merriweather-Black.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #B8B3CC;
+}
+
+main h1 {
+  font-size: 50px;
+  color: #FFD780;
+  font-family: MWeather;
+}
+
+.product-list {
+  list-style-type: none;
+  width: 100%;
+}
+
+.link-card {
+  width: 100%;
+}
+.link-card a h2 {
+  display: flex;
+  justify-content: left;
+  color: #F9F871;
+  font-family: Rubik;
+}
+.link-card a img {
+  justify-self: center;
+  height: 250px;
+  width: 250px;
+}
+.link-card a p {
+  display: flex;
+  text-align: left;
+  color: #FFBFA6;
+  font-family: QSand;
+}
+
+/*# sourceMappingURL=main_stylesheet.css.map */

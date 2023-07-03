@@ -14,13 +14,20 @@
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #B8B3CC;
+  background-color: #b8b3cc;
 }
 
-main h1 {
-  font-size: 50px;
-  color: #FFD780;
+h1 {
+  font-size: 20px;
+  color: #ffd780;
   font-family: MWeather;
+}
+
+p {
+  display: flex;
+  text-align: left;
+  color: #ffbfa6;
+  font-family: QSand;
 }
 
 .product-list {
@@ -34,7 +41,7 @@ main h1 {
 .link-card a h2 {
   display: flex;
   justify-content: left;
-  color: #F9F871;
+  color: #f9f871;
   font-family: Rubik;
 }
 .link-card a img {
@@ -45,7 +52,7 @@ main h1 {
 .link-card a p {
   display: flex;
   text-align: left;
-  color: #FFBFA6;
+  color: #ffbfa6;
   font-family: QSand;
 }
 

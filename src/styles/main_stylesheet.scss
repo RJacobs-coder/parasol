@@ -1,29 +1,29 @@
-$color_one:#B8B3CC;
-$color_two:#E0B5D7;
-$color_three:#FFB5C9;
-$color_four:#FFBFA6;
-$color_five:#FFD780;
-$color_six:#F9F871;
+$color_one: #b8b3cc;
+$color_two: #e0b5d7;
+$color_three: #ffb5c9;
+$color_four: #ffbfa6;
+$color_five: #ffd780;
+$color_six: #f9f871;
 
 // Fonts ttf = truetype woff = woff otf = opentype
 @font-face {
-    font-family: "QSand";
-    src: local("QSand"),
-      url(../../public/art_assets/fonts/Quicksand-VariableFont_wght.ttf) format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Rubik";
-    src: local("Rubik"),
-      url(../../public/art_assets/fonts/Rubik-VariableFont_wght.ttf) format("truetype");
-  }
-  @font-face {
-    font-family: "MWeather";
-    src: local("MWeather"),
-      url(../../public/art_assets/fonts/Merriweather-Black.ttf) format("truetype");
-  }
-  
+  font-family: "QSand";
+  src: local("QSand"),
+    url(../../public/art_assets/fonts/Quicksand-VariableFont_wght.ttf)
+      format("truetype");
+}
 
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"),
+    url(../../public/art_assets/fonts/Rubik-VariableFont_wght.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "MWeather";
+  src: local("MWeather"),
+    url(../../public/art_assets/fonts/Merriweather-Black.ttf) format("truetype");
+}
 
 * {
   margin: 0;
@@ -32,43 +32,48 @@ $color_six:#F9F871;
   background-color: $color_one;
 }
 
-main{
-    h1{
-        font-size: 50px;
-        color: $color_five;
-        font-family: MWeather;
-    }
+// Global Variables
+h1 {
+  font-size: 20px;
+  color: $color_five;
+  font-family: MWeather;
+}
+p {
+  display: flex;
+  text-align: left;
+  color: $color_four;
+  font-family: QSand;
 }
 
+
+// Component specific
 .product-list {
   list-style-type: none;
-  
-  width: 100%
+
+  width: 100%;
 }
 
 .link-card {
+  width: 100%;
 
-    width: 100%;
-    
   a {
-
     h2 {
-        display: flex;
-        justify-content: left;
-        color: $color_six;
-        font-family: Rubik;
+      display: flex;
+      justify-content: left;
+      color: $color_six;
+      font-family: Rubik;
     }
-   
+
     img {
       justify-self: center;
-      height:250px; 
-      width:250px;
+      height: 250px;
+      width: 250px;
     }
 
     p {
       display: flex;
       text-align: left;
-      color:$color_four;
+      color: $color_four;
       font-family: QSand;
     }
   }

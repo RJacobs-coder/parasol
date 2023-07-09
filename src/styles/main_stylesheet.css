@@ -14,12 +14,34 @@
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #b8b3cc;
+}
+
+header {
+  background-image: url(../../public/art_assets/brickwallpaper/wall_two_top.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header .container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(109, 109, 111, 0.6);
+}
+
+main {
+  background-image: url(../../public/art_assets/brickwallpaper/wall_two_side.jpg);
+  background-size: 100%;
+  background-repeat: inherit;
+}
+
+footer {
+  background-image: url(../../public/art_assets/brickwallpaper/wall_two_top.jpg);
+  background-size: 200%;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 20px;
-  color: #ffd780;
+  color: #f8c351;
   font-family: MWeather;
 }
 
@@ -52,8 +74,16 @@ p {
 .link-card a p {
   display: flex;
   text-align: left;
-  color: #ffbfa6;
+  color: black;
   font-family: QSand;
+}
+
+.div-pic1 {
+  background-image: url(../../public/art_assets/pic4.jpg);
+}
+
+.div-pic2 {
+  background-image: url(../../public/art_assets/pic5.jpg);
 }
 
 /*# sourceMappingURL=main_stylesheet.css.map */

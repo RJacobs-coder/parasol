@@ -1,10 +1,18 @@
-$color_one: #b8b3cc;
+$color_one: #d1d1d3;
 $color_two: #e0b5d7;
 $color_three: #ffb5c9;
 $color_four: #ffbfa6;
-$color_five: #ffd780;
+$color_five: #f8c351;
 $color_six: #f9f871;
 
+$wall_one_pic: url(../../public/art_assets/brickwallpaper/wall_one.jpg);
+$wall_two_pic: url(../../public/art_assets/brickwallpaper/wall_two.jpg);
+$wall_two_top_pic: url(../../public/art_assets/brickwallpaper/wall_two_top.jpg);
+$wall_two_side_pic: url(../../public/art_assets/brickwallpaper/wall_two_side.jpg);
+$wall_three_pic: url(../../public/art_assets/brickwallpaper/wall_three.jpg);
+$wall_four_pic: url(../../public/art_assets/brickwallpaper/wall_four.jpg);
+$div_pic_one: url(../../public/art_assets/pic4.jpg);
+$div_pic_two: url(../../public/art_assets/pic5.jpg);
 // Fonts ttf = truetype woff = woff otf = opentype
 @font-face {
   font-family: "QSand";
@@ -29,7 +37,33 @@ $color_six: #f9f871;
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: $color_one;
+  
+
+}
+
+header{
+  background-image: $wall_two_top_pic;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  .container{
+    height:100%;
+    width:100%;
+    background-color: rgba(109,109,111,0.6);
+
+  }
+  
+}
+main{
+  background-image: $wall_two_side_pic;
+  background-size: 100%;
+  background-repeat:inherit;
+
+}
+footer{
+  background-image: $wall_two_top_pic;
+  background-size: 200%;
+  background-repeat: no-repeat;
+
 }
 
 // Global Variables
@@ -73,8 +107,15 @@ p {
     p {
       display: flex;
       text-align: left;
-      color: $color_four;
+      color: black;
       font-family: QSand;
     }
   }
+}
+
+.div-pic1 {
+  background-image: $div_pic_one;
+}
+.div-pic2 {
+  background-image: $div_pic_two;
 }
